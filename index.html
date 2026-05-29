@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Government ITI Sheoganj</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+  :root {
+  color-scheme: light;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: min(1100px, 100% - 2rem);
+  margin: 0 auto;
+}
+
+.site-header {
+  background: linear-gradient(135deg, #0d47a1 0%, #1976d2 100%);
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 4vw, 4rem);
+}
+
+.site-header p {
+  margin: 1rem auto 1.5rem;
+  max-width: 760px;
+  font-size: 1.05rem;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  background: #ffb300;
+  color: #0d47a1;
+  padding: 0.9rem 1.6rem;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.section {
+  margin: 2rem 0;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 14px 40px rgba(15, 23, 42, 0.08);
+}
+
+.section h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: #0f172a;
+}
+
+.section p {
+  color: #475569;
+}
+
+.info-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.info-grid h3 {
+  margin-bottom: 0.5rem;
+  color: #0d47a1;
+}
+
+.course-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.course-item {
+  padding: 1.4rem;
+  border-radius: 18px;
+  background: #eef2ff;
+}
+
+.course-item h3 {
+  margin-top: 0;
+  color: #1e3a8a;
+}
+
+.gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 18px;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-item p {
+  margin: 0;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.video-wrapper,
+.map-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-top: 1rem;
+}
+
+.video-wrapper iframe,
+.map-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.site-footer {
+  background: #0f172a;
+  color: #cbd5e1;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.site-footer a {
+  color: #38bdf8;
+}
+
+@media (max-width: 700px) {
+  .site-header {
+    padding: 2.2rem 0;
+  }
+
+  .section {
+    padding: 1.5rem;
+  }
+}
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Government ITI Sheoganj</h1>
+      <p>शेखावाटी के दिल में तकनीकी शिक्षा का केंद्र</p>
+      <a class="button" href="#contact">संपर्क करें</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="section card">
+      <h2>हम कौन हैं</h2>
+      <p>Government ITI Sheoganj, Sirohi, Rajasthan में स्थित एक तकनीकी शिक्षा संस्थान है। यहाँ छात्रों को व्यावहारिक प्रशिक्षण, अच्छी सुविधाएँ और सरकारी प्रशिक्षण कार्यक्रम मिलते हैं।</p>
+      <div class="info-grid">
+        <div>
+          <h3>स्थान</h3>
+          <p>Sheoganj, Sirohi, Rajasthan</p>
+        </div>
+        <div>
+          <h3>शिक्षण</h3>
+          <p>Electrician, Fitter, COPA, Mechanic Diesel, Mechanic Motor Vehicle</p>
+        </div>
+        <div>
+          <h3>आधिकारिक वेबसाइट</h3>
+          <p><a href="https://dgt.gov.in" target="_blank">https://dgt.gov.in</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="section card">
+      <h2>कोर्स विवरण</h2>
+      <div class="course-list">
+        <article class="course-item">
+          <h3>Electrician</h3>
+          <p>Duration: 2 years</p>
+          <p>Topics: विद्युत स्थापना, मरम्मत, पैनल व इलेक्ट्रिकल सिस्टम, सुरक्षित कामकाज।</p>
+        </article>
+        <article class="course-item">
+          <h3>Fitter</h3>
+          <p>Duration: 2 years</p>
+          <p>Topics: मशीन फिटिंग, धातु कार्य, असेम्बली, माप उपकरण, तकनीकी ड्राइंग।</p>
+        </article>
+        <article class="course-item">
+          <h3>COPA</h3>
+          <p>Duration: 2 years</p>
+          <p>Topics: कंप्यूटर ऑपरेशन, प्रोग्रामिंग, ऑफिस ऑटोमेशन, डेटाबेस और नेटवर्किंग।</p>
+        </article>
+        <article class="course-item">
+          <h3>Mechanic Diesel (MD)</h3>
+          <p>Duration: 2 years</p>
+          <p>Topics: डीजल इंजन रिपेयर, टेक्निकल सर्विसिंग, इंजन सिस्टम, वाहन रखरखाव।</p>
+        </article>
+        <article class="course-item">
+          <h3>Mechanic Motor Vehicle (MMV)</h3>
+          <p>Duration: 2 years</p>
+          <p>Topics: ऑटोमोबाइल प्रणाली, इंजन सर्विस, ब्रेक, सस्पेंशन और विद्युत प्रणालियाँ।</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="facilities" class="section card">
+      <h2>सुविधाएँ</h2>
+      <p>हमारी ITI में कार्यशालाएँ, क्लासरूम, आधुनिक उपकरण और प्रशिक्षण सुविधाएँ हैं।</p>
+      <div class="gallery">
+        <div class="gallery-item"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Workshop training" /><p>वर्कशॉप प्रशिक्षण</p></div>
+        <div class="gallery-item"><img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80" alt="Computer lab" /><p>कम्प्यूटर लैब</p></div>
+        <div class="gallery-item"><img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Practical training" /><p>व्यावहारिक कक्षा</p></div>
+      </div>
+    </section>
+
+    <section id="video" class="section card">
+      <h2>ट्रेनिंग वीडियो</h2>
+      <p>नीचे एक उदाहरण प्रशिक्षण वीडियो है जो ITI छात्रों को तकनीकी कौशल में मदद करता है।</p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/GC0KwlSKYk4" title="ITI Training Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="location" class="section card">
+      <h2>लाइव लोकेशन</h2>
+      <p>Government ITI Sheoganj, Sirohi, Rajasthan की लाइव लोकेशन नीचे दी गई है।</p>
+      <div class="map-wrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31505.789582211167!2d74.5930505!3d24.7202735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39676e25c0f49f15%3A0x5deb8c4e0427f1ef!2sSheoganj%2C%20Rajasthan%2C%20India!5e0!3m2!1sen!2sus!4v1715932119674!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <p>Government ITI Sheoganj, Sirohi, Rajasthan</p>
+      <p>Official portal: <a href="https://dgt.gov.in" target="_blank">https://dgt.gov.in</a></p>
+    </div>
+  </footer>
+</body>
+</html>
